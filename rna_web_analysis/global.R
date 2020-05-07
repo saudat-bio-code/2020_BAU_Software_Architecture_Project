@@ -1,0 +1,16 @@
+library(shiny)
+library(shinyjs)
+library(colourpicker)
+library(plotly)
+library(magrittr)
+
+# loading data painfully generated before
+load("data/encode_rnaseq_preload.RData")
+load("data/bgee_human_preload.RData")
+load("data/encode_mouse_rnaseq_preload.RData")
+load("data/bgee_mouse_preload.RData")
+load("data/blueprint_rnaseq_preload.RData")
+load("data/roadmap_rnaseq_preload.RData")
+load("data/flybase_rnaseq_preload.RData")
+load("data/gtex_small_preload.RData")
+load("data/gtex_large_preload.RData")
